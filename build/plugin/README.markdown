@@ -1,0 +1,1 @@
+This javascript plugin for browser bookmark.
