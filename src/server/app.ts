@@ -1,4 +1,4 @@
-///<reference path='../libs/node.d.ts'/>
+///<reference path='Scripts/typings/node/node.d.ts'/>
 
 import http = module("http");
 

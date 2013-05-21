@@ -415,6 +415,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\typings\express\express.d.ts" />
+    <Content Include="Scripts\typings\jqueryui\jqueryui.d.ts" />
+    <Content Include="Scripts\typings\jquery\jquery.d.ts" />
+    <Content Include="Scripts\typings\node\node-0.8.8.d.ts" />
+    <Content Include="Scripts\typings\node\node.d.ts" />
     <Content Include="start.bat" />
     <Content Include="start.sh" />
   </ItemGroup>
@@ -473,6 +478,9 @@
       <Name>CSharpInteropLib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -489,7 +497,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>1949</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:2775/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
