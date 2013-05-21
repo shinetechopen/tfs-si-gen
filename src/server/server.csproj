@@ -463,6 +463,16 @@
       <DependentUpon>demo.ts</DependentUpon>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\js-plugin\js-plugin.csproj">
+      <Project>{ef26eef6-80a4-46c8-85d9-0f4806459754}</Project>
+      <Name>js-plugin %28js-plugin\js-plugin%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="CSharpInteropLib\CSharpInteropLib.csproj">
+      <Project>{c0bfd5c2-2b5f-44e8-8402-0de98091d9ea}</Project>
+      <Name>CSharpInteropLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

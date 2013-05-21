@@ -21,9 +21,26 @@
     <UpgradeBackupLocation />
   </PropertyGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="core.ts" />
+    <Content Include="core.js">
+      <DependentUpon>core.ts</DependentUpon>
+    </Content>
+    <Content Include="core.min.js">
+      <DependentUpon>core.ts</DependentUpon>
+    </Content>
     <Content Include="debug-page.htm" />
     <Content Include="app.js">
       <DependentUpon>app.ts</DependentUpon>
+    </Content>
+    <Content Include="app.js.map">
+      <DependentUpon>app.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="DependenceLoader.ts" />
+    <Content Include="DependenceLoader.js">
+      <DependentUpon>DependenceLoader.ts</DependentUpon>
+    </Content>
+    <Content Include="DependenceLoader.min.js">
+      <DependentUpon>DependenceLoader.ts</DependentUpon>
     </Content>
     <Content Include="node_modules\minify\lib\css.js" />
     <Content Include="node_modules\minify\lib\html.js" />
@@ -229,6 +246,16 @@
     <Content Include="node_modules\minify\node_modules\uglify-js\README.md" />
     <Content Include="node_modules\minify\package.json" />
     <Content Include="node_modules\minify\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DependenceLoader.js.map">
+      <DependentUpon>DependenceLoader.ts</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="core.js.map">
+      <DependentUpon>core.ts</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
