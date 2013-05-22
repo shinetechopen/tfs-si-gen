@@ -1,8 +1,10 @@
 var config = {};
 
 config.buildPath = "build/";
-config.buildPluginPath = buildPath + "plugin/";
-config.buildServerPath = buildPath + "server/";
+config.buildPluginPath = config.buildPath + "plugin/";
+config.buildServerPath = config.buildPath + "server/";
+
+console.log(config);
 
 
 // 1. build each typescript script.
