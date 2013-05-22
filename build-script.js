@@ -6,6 +6,7 @@ config.buildServerPath = config.buildPath + "server/";
 
 console.log(config);
 
+// 0. run unit test.(optional)
 
 // 1. build each typescript script.
 
