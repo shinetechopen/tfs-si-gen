@@ -9,5 +9,5 @@ notifications:
   recipients:
     - lurongkai@gmail.com
   email:
-    on_success: alway
-    on_failure: alway
+    on_success: always
+    on_failure: always
