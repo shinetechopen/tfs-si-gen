@@ -27,6 +27,96 @@
     <Content Include="app.js">
       <DependentUpon>app.ts</DependentUpon>
     </Content>
+    <None Include="Scripts\jquery-2.0.0.intellisense.js" />
+    <Content Include="Content\themes\base\images\animated-overlay.gif" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.menu.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.spinner.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\jquery.ui.tooltip.css" />
+    <Content Include="Content\themes\base\minified\images\animated-overlay.gif" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.menu.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.spinner.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
+    <Content Include="Scripts\jquery-2.0.0.js" />
+    <Content Include="Scripts\jquery-2.0.0.min.js" />
+    <Content Include="Scripts\jquery-2.0.0.min.map" />
+    <TypeScriptCompile Include="widget\core.ts" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <Content Include="widget\core.js">
+      <DependentUpon>core.ts</DependentUpon>
+    </Content>
+    <Content Include="widget\core.min.js">
+      <DependentUpon>core.ts</DependentUpon>
+    </Content>
+    <Content Include="widget\debug-page.htm" />
+    <TypeScriptCompile Include="widget\dependence.ts" />
+    <Content Include="widget\dependence.js">
+      <DependentUpon>dependence.ts</DependentUpon>
+    </Content>
+    <Content Include="widget\dependence.min.js">
+      <DependentUpon>dependence.ts</DependentUpon>
+    </Content>
+    <Content Include="widget\entity.js">
+      <DependentUpon>entity.ts</DependentUpon>
+    </Content>
+    <Content Include="widget\entity.min.js">
+      <DependentUpon>entity.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="widget\entity.ts" />
     <TypeScriptCompile Include="demo\demo.ts" />
     <TypeScriptCompile Include="demo\demo2.ts" />
     <Content Include="demo\demo.js">
@@ -41,277 +131,6 @@
     <Content Include="demo\demo2.min.js">
       <DependentUpon>demo2.ts</DependentUpon>
     </Content>
-    <Content Include="node_modules\edge\lib\edge.js" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.10.0\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.6.20\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.8.22\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.10.0\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.6.20\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.8.22\msvcr110.dll" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\msvcr110.dll" />
-    <Content Include="node_modules\edge\LICENSE.txt" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\lib\edge-cs.dll" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\lib\edge-cs.js" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\LICENSE.txt" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\src\edge-cs\edge-cs.csproj" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\src\edge-cs\edge-cs.sln" />
-    <Content Include="node_modules\edge\performance\marshal_clr2v8.js" />
-    <Content Include="node_modules\edge\samples\101_hello_lambda.js" />
-    <Content Include="node_modules\edge\samples\102_hello_function.js" />
-    <Content Include="node_modules\edge\samples\103_hello_file.js" />
-    <Content Include="node_modules\edge\samples\104_add7_class.js" />
-    <Content Include="node_modules\edge\samples\105_add7_dll.js" />
-    <Content Include="node_modules\edge\samples\106_marshal_v82clr.js" />
-    <Content Include="node_modules\edge\samples\107_marshal_clr2v8.js" />
-    <Content Include="node_modules\edge\samples\108_func.js" />
-    <Content Include="node_modules\edge\samples\108_lambda.js" />
-    <Content Include="node_modules\edge\samples\109_sync.js" />
-    <Content Include="node_modules\edge\samples\110_clr_instance.js" />
-    <Content Include="node_modules\edge\samples\111_clr_listener.js" />
-    <Content Include="node_modules\edge\samples\201_worker.js" />
-    <Content Include="node_modules\edge\samples\202_sql.js" />
-    <Content Include="node_modules\edge\samples\203_x509store.js" />
-    <Content Include="node_modules\edge\samples\204_event_log.js" />
-    <Content Include="node_modules\edge\samples\205_soap.js" />
-    <Content Include="node_modules\edge\samples\206_registry_read.js" />
-    <Content Include="node_modules\edge\samples\206_registry_write.js" />
-    <Content Include="node_modules\edge\samples\207_unzip.js" />
-    <Content Include="node_modules\edge\samples\207_zip.js" />
-    <Content Include="node_modules\edge\samples\208_convertImage.js" />
-    <Content Include="node_modules\edge\samples\edge.png" />
-    <Content Include="node_modules\edge\samples\readme.txt" />
-    <Content Include="node_modules\edge\src\clrfunc.cpp" />
-    <Content Include="node_modules\edge\src\clrfuncinvokecontext.cpp" />
-    <Content Include="node_modules\edge\src\clrfuncreflectionwrap.cpp" />
-    <Content Include="node_modules\edge\src\edge.cpp" />
-    <Content Include="node_modules\edge\src\edge.h" />
-    <Content Include="node_modules\edge\src\nodejsfunc.cpp" />
-    <Content Include="node_modules\edge\src\nodejsfuncinvokecontext.cpp" />
-    <Content Include="node_modules\edge\src\persistentdisposecontext.cpp" />
-    <Content Include="node_modules\edge\src\utils.cpp" />
-    <Content Include="node_modules\edge\src\v8synchronizationcontext.cpp" />
-    <Content Include="node_modules\edge\test\101_edge_func.js" />
-    <Content Include="node_modules\edge\test\102_node2net.js" />
-    <Content Include="node_modules\edge\test\103_net2node.js" />
-    <Content Include="node_modules\edge\test\104_csx.js" />
-    <Content Include="node_modules\edge\test\105_node2net_sync.js" />
-    <Content Include="node_modules\edge\test\201_patterns.js" />
-    <Content Include="node_modules\edge\tools\checkplatform.js" />
-    <Content Include="node_modules\edge\tools\download.js" />
-    <Content Include="node_modules\edge\tools\runJsHint.js" />
-    <Content Include="node_modules\express\index.js" />
-    <Content Include="node_modules\express\lib\application.js" />
-    <Content Include="node_modules\express\lib\express.js" />
-    <Content Include="node_modules\express\lib\middleware.js" />
-    <Content Include="node_modules\express\lib\request.js" />
-    <Content Include="node_modules\express\lib\response.js" />
-    <Content Include="node_modules\express\lib\router\index.js" />
-    <Content Include="node_modules\express\lib\router\route.js" />
-    <Content Include="node_modules\express\lib\utils.js" />
-    <Content Include="node_modules\express\lib\view.js" />
-    <Content Include="node_modules\express\node_modules\buffer-crc32\index.js" />
-    <Content Include="node_modules\express\node_modules\buffer-crc32\tests\crc.test.js" />
-    <Content Include="node_modules\express\node_modules\commander\index.js" />
-    <Content Include="node_modules\express\node_modules\commander\lib\commander.js" />
-    <Content Include="node_modules\express\node_modules\connect\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\cache.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\connect.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\basicAuth.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\bodyParser.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\compress.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\cookieParser.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\cookieSession.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\csrf.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\directory.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\errorHandler.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\favicon.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\json.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\limit.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\logger.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\methodOverride.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\multipart.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\query.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\responseTime.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\session.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\session\cookie.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\session\memory.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\session\session.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\session\store.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\static.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\staticCache.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\timeout.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\urlencoded.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\middleware\vhost.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\patch.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\proto.js" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\directory.html" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\error.html" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\favicon.ico" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_add.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_attach.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_code.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_copy.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_delete.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_edit.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_error.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_excel.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_find.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_gear.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_go.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_green.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_key.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_lightning.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_link.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_paintbrush.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_paste.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_red.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_refresh.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_save.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_acrobat.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_actionscript.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_add.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_c.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_camera.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_cd.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_code.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_code_red.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_coldfusion.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_compressed.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_copy.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_cplusplus.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_csharp.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_cup.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_database.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_delete.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_dvd.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_edit.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_error.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_excel.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_find.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_flash.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_freehand.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_gear.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_get.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_go.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_h.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_horizontal.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_key.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_lightning.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_link.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_magnify.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_medal.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_office.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_paint.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_paintbrush.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_paste.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_php.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_picture.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_powerpoint.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_put.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_ruby.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_stack.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_star.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_swoosh.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_text.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_text_width.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_tux.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_vector.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_visualstudio.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_width.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_word.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_world.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_wrench.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_white_zip.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_word.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\icons\page_world.png" />
-    <Content Include="node_modules\express\node_modules\connect\lib\public\style.css" />
-    <Content Include="node_modules\express\node_modules\connect\lib\utils.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\benchmark\bench-multipart-parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\example\json.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\example\post.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\example\upload.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\file.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\incoming_form.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\json_parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\multipart_parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\octet_parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\lib\querystring_parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\common.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\beta-sticker-1.png" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\blank.gif" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\funkyfilename.txt" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\menu_separator.png" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\plain.txt" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\encoding.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\misc.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\no-filename.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\preamble.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\special-chars-in-filename.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\js\workarounds.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\multipart.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\integration\test-fixtures.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\integration\test-json.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\integration\test-octet-stream.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\common.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\integration\test-multipart-parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-file.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-incoming-form.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-multipart-parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\simple\test-querystring-parser.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\legacy\system\test-multi-video-upload.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\run.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\standalone\test-connection-aborted.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\standalone\test-content-transfer-encoding.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\standalone\test-issue-46.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\tools\base64.html" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\unit\test-file.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\unit\test-incoming-form.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\tool\record.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\pause\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\qs\.gitmodules" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\qs\index.js" />
-    <Content Include="node_modules\express\node_modules\connect\test.js" />
-    <Content Include="node_modules\express\node_modules\cookie-signature\index.js" />
-    <Content Include="node_modules\express\node_modules\cookie\index.js" />
-    <Content Include="node_modules\express\node_modules\cookie\test\parse.js" />
-    <Content Include="node_modules\express\node_modules\cookie\test\serialize.js" />
-    <Content Include="node_modules\express\node_modules\debug\debug.js" />
-    <Content Include="node_modules\express\node_modules\debug\example\app.js" />
-    <Content Include="node_modules\express\node_modules\debug\example\browser.html" />
-    <Content Include="node_modules\express\node_modules\debug\example\wildcards.js" />
-    <Content Include="node_modules\express\node_modules\debug\example\worker.js" />
-    <Content Include="node_modules\express\node_modules\debug\index.js" />
-    <Content Include="node_modules\express\node_modules\debug\lib\debug.js" />
-    <Content Include="node_modules\express\node_modules\fresh\index.js" />
-    <Content Include="node_modules\express\node_modules\methods\index.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\examples\pow.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\index.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\chmod.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\clobber.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\mkdirp.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\perm.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\perm_sync.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\race.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\rel.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\return.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\return_sync.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\root.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\sync.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\umask.js" />
-    <Content Include="node_modules\express\node_modules\mkdirp\test\umask_sync.js" />
-    <Content Include="node_modules\express\node_modules\range-parser\index.js" />
-    <Content Include="node_modules\express\node_modules\send\index.js" />
-    <Content Include="node_modules\express\node_modules\send\lib\send.js" />
-    <Content Include="node_modules\express\node_modules\send\lib\utils.js" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\mime.js" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\test.js" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
@@ -320,94 +139,6 @@
     <Content Include="app.js.map">
       <DependentUpon>app.ts</DependentUpon>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="node_modules\.bin\express" />
-    <Content Include="node_modules\.bin\express.cmd" />
-    <Content Include="node_modules\express\.npmignore" />
-    <Content Include="node_modules\express\.travis.yml" />
-    <Content Include="node_modules\express\bin\express" />
-    <Content Include="node_modules\express\History.md" />
-    <Content Include="node_modules\express\LICENSE" />
-    <Content Include="node_modules\express\Makefile" />
-    <Content Include="node_modules\express\node_modules\buffer-crc32\.npmignore" />
-    <Content Include="node_modules\express\node_modules\buffer-crc32\.travis.yml" />
-    <Content Include="node_modules\express\node_modules\buffer-crc32\package.json" />
-    <Content Include="node_modules\express\node_modules\buffer-crc32\README.md" />
-    <Content Include="node_modules\express\node_modules\commander\.npmignore" />
-    <Content Include="node_modules\express\node_modules\commander\.travis.yml" />
-    <Content Include="node_modules\express\node_modules\commander\History.md" />
-    <Content Include="node_modules\express\node_modules\commander\Makefile" />
-    <Content Include="node_modules\express\node_modules\commander\package.json" />
-    <Content Include="node_modules\express\node_modules\commander\Readme.md" />
-    <Content Include="node_modules\express\node_modules\connect\.npmignore" />
-    <Content Include="node_modules\express\node_modules\connect\.travis.yml" />
-    <Content Include="node_modules\express\node_modules\connect\LICENSE" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\.npmignore" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\component.json" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\History.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\Makefile" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\package.json" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\bytes\Readme.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\.npmignore" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\.travis.yml" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\LICENSE" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\package.json" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\Readme.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\binaryfile.tar.gz" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\http\special-chars-in-filename\info.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\pause\.npmignore" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\pause\History.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\pause\Makefile" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\pause\package.json" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\pause\Readme.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\qs\.npmignore" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\qs\package.json" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\qs\Readme.md" />
-    <Content Include="node_modules\express\node_modules\connect\package.json" />
-    <Content Include="node_modules\express\node_modules\connect\Readme.md" />
-    <Content Include="node_modules\express\node_modules\cookie-signature\.npmignore" />
-    <Content Include="node_modules\express\node_modules\cookie-signature\History.md" />
-    <Content Include="node_modules\express\node_modules\cookie-signature\Makefile" />
-    <Content Include="node_modules\express\node_modules\cookie-signature\package.json" />
-    <Content Include="node_modules\express\node_modules\cookie-signature\Readme.md" />
-    <Content Include="node_modules\express\node_modules\cookie\.npmignore" />
-    <Content Include="node_modules\express\node_modules\cookie\.travis.yml" />
-    <Content Include="node_modules\express\node_modules\cookie\package.json" />
-    <Content Include="node_modules\express\node_modules\cookie\README.md" />
-    <Content Include="node_modules\express\node_modules\cookie\test\mocha.opts" />
-    <Content Include="node_modules\express\node_modules\debug\.npmignore" />
-    <Content Include="node_modules\express\node_modules\debug\component.json" />
-    <Content Include="node_modules\express\node_modules\debug\History.md" />
-    <Content Include="node_modules\express\node_modules\debug\package.json" />
-    <Content Include="node_modules\express\node_modules\debug\Readme.md" />
-    <Content Include="node_modules\express\node_modules\fresh\.npmignore" />
-    <Content Include="node_modules\express\node_modules\fresh\Makefile" />
-    <Content Include="node_modules\express\node_modules\fresh\package.json" />
-    <Content Include="node_modules\express\node_modules\fresh\Readme.md" />
-    <Content Include="node_modules\express\node_modules\methods\package.json" />
-    <Content Include="node_modules\express\node_modules\mkdirp\.npmignore" />
-    <Content Include="node_modules\express\node_modules\mkdirp\.travis.yml" />
-    <Content Include="node_modules\express\node_modules\mkdirp\LICENSE" />
-    <Content Include="node_modules\express\node_modules\mkdirp\package.json" />
-    <Content Include="node_modules\express\node_modules\mkdirp\README.markdown" />
-    <Content Include="node_modules\express\node_modules\range-parser\.npmignore" />
-    <Content Include="node_modules\express\node_modules\range-parser\History.md" />
-    <Content Include="node_modules\express\node_modules\range-parser\Makefile" />
-    <Content Include="node_modules\express\node_modules\range-parser\package.json" />
-    <Content Include="node_modules\express\node_modules\range-parser\Readme.md" />
-    <Content Include="node_modules\express\node_modules\send\.npmignore" />
-    <Content Include="node_modules\express\node_modules\send\History.md" />
-    <Content Include="node_modules\express\node_modules\send\Makefile" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\LICENSE" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\package.json" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\README.md" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\types\mime.types" />
-    <Content Include="node_modules\express\node_modules\send\node_modules\mime\types\node.types" />
-    <Content Include="node_modules\express\node_modules\send\package.json" />
-    <Content Include="node_modules\express\node_modules\send\Readme.md" />
-    <Content Include="node_modules\express\package.json" />
-    <Content Include="node_modules\express\Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="demo\demo2.js.map">
@@ -424,62 +155,28 @@
     <Content Include="start.sh" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="node_modules\edge\.jshintrc" />
-    <Content Include="node_modules\edge\.npmignore" />
-    <Content Include="node_modules\edge\binding.gyp" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.10.0\.npmignore" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.10.0\edge.node" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.6.20\.npmignore" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.6.20\edge.node" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.8.22\.npmignore" />
-    <Content Include="node_modules\edge\lib\native\win32\ia32\0.8.22\edge.node" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.10.0\.npmignore" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.10.0\edge.node" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.6.20\.npmignore" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.6.20\edge.node" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.8.22\.npmignore" />
-    <Content Include="node_modules\edge\lib\native\win32\x64\0.8.22\edge.node" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\.npmignore" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\package.json" />
-    <Content Include="node_modules\edge\node_modules\edge-cs\README.md" />
-    <Content Include="node_modules\edge\package.json" />
-    <Content Include="node_modules\edge\README.md" />
-    <Content Include="node_modules\edge\samples\103_hello_file.csx" />
-    <Content Include="node_modules\edge\samples\202_sql.csx" />
-    <Content Include="node_modules\edge\samples\205_soap.csx" />
-    <Content Include="node_modules\edge\test\build.bat" />
-    <Content Include="node_modules\edge\test\hello_class.csx" />
-    <Content Include="node_modules\edge\test\hello_lambda.csx" />
-    <Content Include="node_modules\edge\test\test.bat" />
-    <Content Include="node_modules\edge\test\testall.bat" />
-    <Content Include="node_modules\edge\tools\build.bat" />
-    <Content Include="node_modules\edge\tools\buildall.bat" />
-    <Content Include="node_modules\edge\tools\install.bat" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="node_modules\edge\node_modules\edge-cs\src\edge-cs\EdgeCompiler.cs" />
-    <Compile Include="node_modules\edge\node_modules\edge-cs\src\edge-cs\Properties\AssemblyInfo.cs" />
-    <Compile Include="node_modules\edge\samples\Sample105.cs" />
-    <Compile Include="node_modules\edge\test\hello_class.cs" />
-    <Compile Include="node_modules\edge\test\tests.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="demo\demo.js.map">
       <DependentUpon>demo.ts</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\js-plugin\js-plugin.csproj">
-      <Project>{ef26eef6-80a4-46c8-85d9-0f4806459754}</Project>
-      <Name>js-plugin %28js-plugin\js-plugin%29</Name>
-    </ProjectReference>
-    <ProjectReference Include="CSharpInteropLib\CSharpInteropLib.csproj">
-      <Project>{c0bfd5c2-2b5f-44e8-8402-0de98091d9ea}</Project>
-      <Name>CSharpInteropLib</Name>
-    </ProjectReference>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="widget\entity.js.map">
+      <DependentUpon>entity.ts</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="widget\core.js.map">
+      <DependentUpon>core.ts</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="widget\dependence.js.map">
+      <DependentUpon>dependence.ts</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
