@@ -3,11 +3,10 @@ node_js:
   - "0.10"
 script:
   - node build-script.js
-  
-# Notify development list when needed
+
 notifications:
-  recipients:
-    - lurongkai@gmail.com
   email:
+    recipients:
+      - lurongkai@gmail.com
     on_success: always
     on_failure: always
