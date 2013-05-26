@@ -27,6 +27,10 @@ var buildList = [
     "./src/server/interop/"
     ];
 
+console.log(buildList);
+console.log(copyFileList);
+console.log(copyDirectoryList);
+
 // 0. run unit test.(optional)
 
 // 1. build each typescript script.
