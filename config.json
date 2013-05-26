@@ -1,0 +1,24 @@
+{
+	buildPath: "build/",
+	buildPluginPath: "build/plugin/",
+	buildServerPath: "build/server/",
+
+	buildList: [
+	    "./src/server/widget/entity.min.js",
+	    "./src/server/widget/dependence.min.js",
+	    "./src/server/widget/core.min.js"
+	],
+  
+    copyFileList: [
+	    "./src/server/app.min.js",
+	    "./src/server/start.bat",
+	    "./src/server/start.sh"
+    ],
+
+    copyDirectoryList: [
+	    "./src/server/Content",
+	    "./src/server/Scripts",
+	    "./src/server/node_modules",
+	    "./src/server/interop/"
+	]	
+}
