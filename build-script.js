@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 var config = {};
 
 config.buildPath = "build/";
@@ -5,6 +7,25 @@ config.buildPluginPath = config.buildPath + "plugin/";
 config.buildServerPath = config.buildPath + "server/";
 
 console.log(config);
+
+var buildList = [
+    "./src/server/widget/entity.min.js",
+    "./src/server/widget/dependence.min.js",
+    "./src/server/widget/core.min.js"
+    ],
+  
+    copyFileList = [
+    "./src/server/app.min.js",
+    "./src/server/start.bat",
+    "./src/server/start.sh"
+    ],
+    
+    copyDirectoryList = [
+    "./src/server/Content",
+    "./src/server/Scripts",
+    "./src/server/node_modules",
+    "./src/server/interop/"
+    ];
 
 // 0. run unit test.(optional)
 
