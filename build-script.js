@@ -1,5 +1,5 @@
 var fs = require('fs');
-var config = require('./config.json');
+var config = require('./build-config');
 
 console.log(config);
 
