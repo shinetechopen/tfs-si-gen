@@ -1,7 +1,8 @@
-import entity = module("entity")
-import dependence = module("dependence");
+///<reference path='./dependence.ts'/>
+///<reference path='./entity.ts'/>
 
-var loader = new dependence.Loader();
-loader.Initialize(() => {
-    var newIncident = new entity.Incident();
-});
+module TfsGen.Widget {
+    Initialize(() => {
+        var newIncident = new Incident();
+    });
+}

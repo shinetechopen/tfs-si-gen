@@ -1,24 +1,23 @@
 {
-	"buildPath": "build/",
-	"buildPluginPath": "build/plugin/",
-	"buildServerPath": "build/server/",
+	"releasePath": "build/",
 
+	"buildPath": "./src/server/widget/",
 	"buildList": [
-	    "./src/server/widget/entity.min.js",
-	    "./src/server/widget/dependence.min.js",
-	    "./src/server/widget/core.min.js"
+		"entity",
+		"dependence",
+		"core"
 	],
-  
-    "copyFileList": [
-	    "./src/server/app.min.js",
-	    "./src/server/start.bat",
-	    "./src/server/start.sh"
-    ],
+	
+	"copyFileList": [
+		"./src/server/app.min.js",
+		"./src/server/start.bat",
+		"./src/server/start.sh"
+	],
 
-    "copyDirectoryList": [
-	    "./src/server/Content",
-	    "./src/server/Scripts",
-	    "./src/server/node_modules",
-	    "./src/server/interop/"
+	"copyDirectoryList": [
+		"./src/server/Content",
+		"./src/server/Scripts",
+		"./src/server/node_modules",
+		"./src/server/interop/"
 	]	
 }

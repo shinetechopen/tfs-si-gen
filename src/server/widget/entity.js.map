@@ -1,1 +1,1 @@
-{"version":3,"file":"entity.js","sources":["entity.ts"],"names":["Incident","Incident.constructor"],"mappings":"AAAA;IAAAA;AAMCA,IAADA;AAACA,CAAAA,IAAA;AAND,4BAMC;AAAA"}
+{"version":3,"file":"entity.js","sources":["entity.ts"],"names":["TfsGen","TfsGen.Widget","TfsGen.Widget.Incident","TfsGen.Widget.Incident.constructor"],"mappings":"AAAA,IAAO,MAAM;AAOZ,CAPD,UAAO,MAAM;KAANA,UAAOA,MAAMA;QAChBC;YAAAC;AAKCA,YAADA;AAACA,QAADA,CAACA,IAAAD;QALDA,2BAKCA,QAAAA;IACLA,CAACA,yCAAAD;IAPMA;AAONA,CAAAA,2BAAA"}

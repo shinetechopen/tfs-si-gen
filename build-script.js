@@ -1,5 +1,8 @@
-var fs = require('fs');
-var config = require('./build-config');
+var fs = require("fs");
+var config = require("./build-config");
+var buildUtil = require("./build-util");
+
+buildUtil.initConfig(config);
 
 console.log(config);
 

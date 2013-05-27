@@ -1,36 +1,34 @@
-export class Loader {
-    private resourceLoader: ResourceLoader;
-    private scriptLoader: ScriptLoader;
-
-    constructor() {
-        this.resourceLoader = new ResourceLoader();
-        this.scriptLoader = new ScriptLoader();
+module TfsGen.Widget {
+    interface IInitializable {
+        Init();
     }
 
-    Initialize(callback: () => any) {
-        this.resourceLoader.Init();
-        this.scriptLoader.Init();
+    class ResourceLoader implements IInitializable {
+        constructor() {
+
+        }
+
+        Init() { }
+    }
+
+    class ScriptLoader implements IInitializable {
+        constructor() {
+
+        }
+
+        Init() { }
+    }
+
+    export function Initialize(callback: () => any) {
+        var resourceList: IInitializable[] = [
+            new ResourceLoader(),
+            new ScriptLoader()
+        ];
+
+        resourceList.forEach(resource => {
+            resource.Init();
+        });
 
         callback();
     }
-}
-
-interface IInitializable {
-    Init();
-}
-
-class ResourceLoader implements IInitializable {
-    constructor() {
-
-    }
-
-    Init() { }
-}
-
-class ScriptLoader implements IInitializable {
-    constructor() {
-
-    }
-
-    Init() { }
 }

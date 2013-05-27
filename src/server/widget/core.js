@@ -1,7 +1,12 @@
-var entity = require("./entity")
-var dependence = require("./dependence")
-var loader = new dependence.Loader();
-loader.Initialize(function () {
-    var newIncident = new entity.Incident();
-});
+var TfsGen;
+(function (TfsGen) {
+    ///<reference path='./dependence.ts'/>
+    ///<reference path='./entity.ts'/>
+    (function (Widget) {
+        Widget.Initialize(function () {
+            var newIncident = new Widget.Incident();
+        });
+    })(TfsGen.Widget || (TfsGen.Widget = {}));
+    var Widget = TfsGen.Widget;
+})(TfsGen || (TfsGen = {}));
 //@ sourceMappingURL=core.js.map
